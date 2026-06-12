@@ -25,7 +25,7 @@
 | 🧠 **About** | Background, education, and interests |
 | 🛠 **Skills** | Tech stack and tools with visual indicators |
 | 💼 **Projects** | Showcase of key projects with descriptions and links |
-| 📜 **Certifications** | NPTEL, NASSCOM, IBM, and other credentials |
+| 📜 **Certifications** | other credentials |
 | 📬 **Contact** | Links to GitHub, LinkedIn, and email |
 
 ---
