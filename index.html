@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio website for Kareena Treesa Thomas, Aspiring AI Engineer and B.Tech Computer Science (AI) student at MITS Kochi."
+    />
+    <title>Kareena Treesa Thomas | Aspiring AI Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <div class="ambient-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="Kareena Treesa Thomas home">
+        <span>K</span><span>T</span><span>T</span>
+        <strong>ktt.dev</strong>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#opensource">Open Source</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#linkedin">LinkedIn</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section-full">
+        <div class="hero-wave" aria-hidden="true"></div>
+        <div class="section-inner hero-inner reveal">
+          <div class="hero-copy-block">
+            <p class="hero-script">Hi, I'm</p>
+            <p class="eyebrow">ktt.dev / AI portfolio</p>
+            <h1>Kareena<br /><span>Treesa Thomas</span></h1>
+            <p class="type-line">
+              &lt; <span id="typed-role">Aspiring AI Engineer</span><span class="cursor" aria-hidden="true"></span> /&gt;
+            </p>
+            <div class="role-strip" aria-label="Portfolio focus areas">
+              <span>Aspiring AI Engineer</span>
+              <span>Open Source Contributor</span>
+              <span>GSSOC'26 Contributor</span>
+              <span>Hackathon Builder</span>
+              <span>Full Stack Developer</span>
+            </div>
+            <p class="hero-copy">
+              <strong>AI Engineer in the Making | B.Tech CSE (AI) @ MITS | GSSoC '26 Contributor — Open Source & AI Agents | Campus Ambassador @ Retechnox | Hackathon Enthusiast | Building Real-World AI Solutions</strong>
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+            <a class="btn btn-resume" 
+            href="https://drive.google.com/file/d/1P34ymX6jmQI-dYa9UdZYuM8HVmyevjmh/view" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            ↓ Download Resume
+            </a>
+            </div>
+            <div class="social-row labeled" aria-label="Social links">
+              <a class="social-card" href="https://github.com/Kareena-Treesa-Thomas" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <span class="social-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.8-1.34-3.8-1.34-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.43 2.64 2.96 1.88.1-.73.4-1.22.72-1.5-2.5-.28-5.13-1.25-5.13-5.55 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.1-2.98 0 0 .95-.3 3.1 1.15a10.6 10.6 0 0 1 5.64 0c2.15-1.45 3.1-1.15 3.1-1.15.6 1.55.22 2.7.1 2.98.72.79 1.16 1.79 1.16 3.02 0 4.31-2.64 5.26-5.15 5.54.4.35.77 1.04.77 2.1v3.12c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z" />
+              </svg>
+                </span>
+                <small>GitHub</small>
+            </a>
+              <a class="social-card" href="https://linkedin.com/in/kareena-treesa-thomas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <span class="social-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4v15.5h-4V8Zm7.5 0h3.84v2.12h.05c.54-1 1.84-2.42 3.8-2.42 4.06 0 4.81 2.67 4.81 6.15v7.65h-4v-6.78c0-1.62-.03-3.7-2.25-3.7-2.25 0-2.6 1.76-2.6 3.58v6.9h-4V8Z" />
+              </svg>
+                </span>
+                <small>LinkedIn</small>
+            </a>
+              <a class="social-card" href="https://leetcode.com/u/Kareena_Treesa_Thomas" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+                <span class="social-icon social-text">LC</span>
+                <small>LeetCode</small>
+              </a>
+              <a class="social-card" href="https://www.instagram.com/__.kareena_treesa.__?igsh=MTM1dGdoc3U2YzB4MA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <span class="social-icon social-text">IG</span>
+                <small>Instagram</small>
+              </a>
+              <a class="social-card" href="mailto:kareenatreesa07@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <span class="social-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13Zm2.2-.1 7.3 5.48 7.3-5.48a.8.8 0 0 0-.3-.06H5a.8.8 0 0 0-.3.06Zm14.46 13.27L13.4 13.8 12 14.86l-1.4-1.05-5.76 4.86c.05.01.1.02.16.02h14c.06 0 .11-.01.16-.02Zm.68-1.77V7.17l-4.88 3.66 4.88 6.07ZM4.16 7.17v9.73l4.88-6.07-4.88-3.66Z" />
+              </svg>
+                </span>
+                <small>Email</small>
+            </a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Kareena Treesa Thomas profile visual">
+            <div class="hero-orbit" aria-hidden="true"></div>
+            <img src="assets/kareena-photo-hero.png" alt="Kareena Treesa Thomas" />
+            <div class="hero-badge">KTT</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Curious, practical, and obsessed with turning ideas into working systems.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="profile-frame reveal">
+              <div class="profile-photo">
+                <img src="assets/kareena-photo-avatar.png" alt="Kareena Treesa Thomas" />
+              </div>
+              <div class="profile-ring" aria-hidden="true"></div>
+            </div>
+            <div class="about-copy reveal">
+              <p>
+                I'm a second-year B.Tech Computer Science (AI) student at Muthoot Institute
+                of Technology and Science, Kochi. I build AI-powered applications, contribute
+                to open source, and love solving real-world problems through technology.
+                Currently exploring computer vision, NLP, agentic AI, and full-stack
+                development.
+              </p>
+              <div class="stats-row" aria-label="Portfolio stats">
+                <div><strong>6+</strong><span>Projects</span></div>
+                <div><strong>2</strong><span>Open Source Contributions</span></div>
+                <div><strong>2</strong><span>Hackathon Builds</span></div>
+                <div><strong>2</strong><span>Internships</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools I use to move from prototype to product.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-category reveal">
+              <h3>Languages</h3>
+              <div class="chip-row">
+                <span>Python</span><span>TypeScript</span><span>JavaScript</span><span>MATLAB</span><span>Java</span><span>C</span>
+              </div>
+            </article>
+            <article class="skill-category reveal">
+              <h3>AI/ML</h3>
+              <div class="chip-row">
+                <span>YOLOv8</span><span>ByteTrack</span><span>MediaPipe</span><span>Gemini API</span><span>Groq API</span><span>NLP/TF-IDF</span><span>Logistic Regression</span><span>RL Basics</span>
+              </div>
+            </article>
+            <article class="skill-category reveal">
+              <h3>Web/Frontend</h3>
+              <div class="chip-row">
+                <span>React</span><span>Tailwind CSS</span><span>HTML</span><span>CSS</span><span>Chart.js</span><span>Vite</span><span>Framer Motion</span>
+              </div>
+            </article>
+            <article class="skill-category reveal">
+              <h3>Backend/DB</h3>
+              <div class="chip-row">
+                <span>Node.js</span><span>Flask</span><span>FastAPI</span><span>Supabase</span><span>PostgreSQL</span><span>Firebase</span><span>SQLite</span><span>Notion API</span>
+              </div>
+            </article>
+            <article class="skill-category wide reveal">
+              <h3>Automation &amp; Tools</h3>
+              <div class="chip-row">
+                <span>n8n</span><span>Twilio</span><span>Git</span><span>GitHub</span><span>Docker</span><span>Vercel</span><span>HuggingFace Spaces</span><span>LaTeX</span><span>Arduino</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="content-section projects-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Flip through the builds.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge accent">Hackathon Build</span>
+                  <h3>ARIA</h3>
+                  <p class="project-subtitle">Automated Response Intelligence Agent</p>
+                  <p class="tagline">"You dump the input. ARIA handles what comes next."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge accent">Codex Community Hackathon Kochi, June 2025</span>
+                  <p>
+                    Agentic AI work assistant built overnight at Codex Community Hackathon Kochi
+                    at TinkerSpace, Kalamassery. Three intelligent modes convert messy work input
+                    into useful action.
+                  </p>
+                  <ul class="feature-list">
+                    <li>Email replies with tone analysis and urgency scoring.</li>
+                    <li>Meeting decisions, task lists, deadlines, and voice memo summaries.</li>
+                    <li>n8n orchestration, Notion task storage, Twilio WhatsApp handoff, and local demo mode.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Groq API</span><span>OpenAI Codex</span><span>n8n</span><span>Notion API</span><span>Twilio</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/aria-ai-work-agent" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge progress">In Progress</span>
+                  <h3>CrowdShield</h3>
+                  <p class="tagline">"Real-time AI crowd safety monitoring for large-scale public events."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge progress">Phase 1 Complete</span>
+                  <p>
+                    AI-powered crowd detection targeting Sunburn Festival and Kumbh Mela with
+                    multi-object tracking and event-safety visualization.
+                  </p>
+                  <ul class="feature-list">
+                    <li>YOLOv8 and ByteTrack based crowd tracking.</li>
+                    <li>Zone-based density heatmaps on a Flask dashboard.</li>
+                    <li>Intramap integration for real-time indoor routing.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>Python</span><span>YOLOv8</span><span>ByteTrack</span><span>OpenCV</span><span>Flask</span><span>JSON API</span><span>Intramap</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/crowd-shield" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge done">Completed</span>
+                  <h3>GroceryAI</h3>
+                  <p class="tagline">"AI-powered grocery price comparison across 8 platforms."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge done">Deployed on Vercel</span>
+                  <p>
+                    Full-stack AI web app comparing prices across Blinkit, Zepto, BigBasket,
+                    Amazon Fresh, Swiggy Instamart, Flipkart Supermart, Nature's Basket, and JioMart.
+                  </p>
+                  <ul class="feature-list">
+                    <li>Item-wise breakdowns, auto discounts, and delivery cost comparison.</li>
+                    <li>AI best-store recommendation, Google Sign-In, and Supabase history.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>TypeScript</span><span>React</span><span>Supabase</span><span>Gemini API</span><span>Chart.js</span><span>Tailwind CSS</span><span>Vite</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/GroceryAI" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://grocery-ai-topaz.vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge done">Completed</span>
+                  <h3>Hand Gesture Recognition</h3>
+                  <p class="tagline">"Touchless computer control using real-time hand gesture detection."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge done">Cross-platform</span>
+                  <p>
+                    Python app detecting hand gestures via webcam using MediaPipe Hand Landmarker
+                    and mapping those gestures to mouse and keyboard actions.
+                  </p>
+                  <ul class="feature-list">
+                    <li>1 finger scrolls down and 2 fingers scroll up.</li>
+                    <li>4-5 fingers plus swipe switches tabs.</li>
+                    <li>Both hands minimize the active window.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>NumPy</span><span>PyAutoGUI</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/HAND-GESTURES" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge done">Completed</span>
+                  <h3>Fake News Detection</h3>
+                  <p class="tagline">"NLP + ML system to classify news as FAKE or REAL."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge done">Academic ML Build</span>
+                  <p>
+                    MATLAB-based NLP system using TF-IDF and Logistic Regression with a full
+                    preprocessing pipeline and styled academic reporting.
+                  </p>
+                  <ul class="feature-list">
+                    <li>Confusion matrix, accuracy, F1, precision, and recall metrics.</li>
+                    <li>Styled visualizations and full LaTeX academic report.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>MATLAB</span><span>NLP</span><span>TF-IDF</span><span>Logistic Regression</span><span>Text Analytics Toolbox</span><span>LaTeX</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/fake-news-detection" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" tabindex="0" role="button" aria-pressed="false">
+              <div class="project-inner">
+                <div class="project-face project-front">
+                  <span class="status-badge done">Completed</span>
+                  <h3>Student Expense Tracker</h3>
+                  <p class="tagline">"Python CLI app demonstrating core CS concepts through expense tracking."</p>
+                  <span class="flip-hint">Tap or hover</span>
+                </div>
+                <div class="project-face project-back">
+                  <span class="status-badge done">41 Commits</span>
+                  <p>
+                    CLI expense tracker using lists, dictionaries, sets, recursion, and modular
+                    functions for category-wise analysis.
+                  </p>
+                  <ul class="feature-list">
+                    <li>Recursive totals and category-wise summaries.</li>
+                    <li>Interactive menu built around core data structures.</li>
+                  </ul>
+                  <div class="tech-stack">
+                    <span>Python</span><span>CLI</span><span>Recursion</span><span>Data Structures</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Kareena-Treesa-Thomas/student-expense-tracker" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="github-activity" class="content-section">
+  <div class="section-inner">
+
+    <div class="gh-section-header reveal">
+      <p class="eyebrow">GitHub Activity</p>
+      <h2>Live from my GitHub — auto-updated.</h2>
+      <p>These repos are fetched in real time. No manual updates needed.</p>
+    </div>
+
+    <!-- Profile stats row — filled by JS -->
+    <div class="gh-profile-row reveal">
+      <div class="gh-avatar" aria-label="GitHub logo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" role="img">
+          <path fill="currentColor" d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.304.76-1.604-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.468-2.38 1.235-3.22-.124-.304-.535-1.527.117-3.18 0 0 1.008-.322 3.3 1.23A11.52 11.52 0 0 1 12 5.8a11.5 11.5 0 0 1 3.003.405c2.29-1.552 3.296-1.23 3.296-1.23.653 1.653.242 2.876.118 3.18.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.624-5.48 5.92.43.372.815 1.102.815 2.222 0 1.606-.014 2.9-.014 3.292 0 .32.19.694.8.576C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12z"/>
+        </svg>
+      </div>
+      <div class="gh-profile-info">
+        <h3 id="gh-name">Loading...</h3>
+        <p id="gh-bio">Fetching bio...</p>
+        <a class="gh-profile-link"
+           href="https://github.com/Kareena-Treesa-Thomas"
+           target="_blank"
+           rel="noopener noreferrer">
+          github.com/Kareena-Treesa-Thomas →
+        </a>
+      </div>
+      <div class="gh-stats-row">
+        <div class="gh-stat">
+          <strong id="gh-repos" class="loading">…</strong>
+          <span>Public Repos</span>
+        </div>
+        <div class="gh-stat">
+          <strong id="gh-followers" class="loading">…</strong>
+          <span>Followers</span>
+        </div>
+        <div class="gh-stat">
+          <strong id="gh-following" class="loading">…</strong>
+          <span>Following</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest repos — filled by JS -->
+    <p class="gh-repos-heading reveal">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8V1.5Z"/>
+      </svg>
+      Latest Repositories
+    </p>
+
+    <div id="gh-repos-list" class="reveal">
+      <!-- Skeleton loading cards shown while fetching -->
+      <div class="gh-repo-card" style="opacity:0.4">
+        <div class="gh-repo-top"><span style="color:#3b82f6;font-size:0.85rem">Loading repos...</span></div>
+        <p class="gh-repo-desc">Fetching from GitHub API...</p>
+      </div>
+    </div>
+
+    <div class="gh-center">
+      <a class="gh-view-all"
+         href="https://github.com/Kareena-Treesa-Thomas?tab=repositories"
+         target="_blank"
+         rel="noopener noreferrer">
+        View all repositories on GitHub →
+      </a>
+    </div>
+
+  </div>
+</section>
+      <section id="opensource" class="content-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Open Source</p>
+            <h2>Contributing in public and learning with real teams.</h2>
+          </div>
+          <div class="oss-grid">
+            <article class="glass-card reveal">
+              <div class="card-topline">
+                <span class="status-badge accent">GSSoC 2026</span>
+                <a href="https://github.com/Kareena-Treesa-Thomas/career-pilot" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+              <h3>Career Pilot</h3>
+              <p>
+                AI career platform with 1400+ commits. PR #2509 merged for the
+                GitHubProfileTheme feature, including a React component and CSS.
+              </p>
+              <div class="tech-stack">
+                <span>React 19</span><span>Vite</span><span>TailwindCSS 4</span><span>Firebase</span><span>JavaScript</span>
+              </div>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-topline">
+                <span class="status-badge progress">Meta PyTorch Hackathon x Scaler</span>
+                <a href="https://github.com/Kareena-Treesa-Thomas/Flex_Time" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+              <h3>FlexTime</h3>
+              <p>
+                OpenEnv RL environment for AI workforce scheduling. Contributions touched
+                engine.py, FastAPI endpoints, reward functions, Docker, and HuggingFace deployment.
+              </p>
+              <div class="tech-stack">
+                <span>Python</span><span>FastAPI</span><span>Docker</span><span>HuggingFace Spaces</span><span>Reinforcement Learning</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience &amp; Achievements</p>
+            <h2>Milestones, job roles, open source, and campus work.</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>LINC MITS Hackathon</h3>
+                <p class="timeline-role">Achievement - 2nd Prize Winner</p>
+                <p>Recognized for building and presenting a real-world technology solution.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>Future Interns</h3>
+                <p class="timeline-role">Full Stack Web Development Intern</p>
+                <p>Building real-world web applications with HTML, CSS, JavaScript, and React.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>Codex Community Hackathon Kochi</h3>
+                <p class="timeline-role">Hackathon Builder - ARIA</p>
+                <p>Built an agentic AI work assistant overnight at TinkerSpace in June 2025.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>GSSoC 2026</h3>
+                <p class="timeline-role">Open Source Contributor - Career Pilot</p>
+                <p>PR #2509 merged for the GitHubProfileTheme feature.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>Meta PyTorch Hackathon x Scaler</h3>
+                <p class="timeline-role">RL Environment Builder - FlexTime</p>
+                <p>Phase 1 and Phase 2 cleared, submitted for judging.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>Campus Ambassador</h3>
+                <p class="timeline-role">Campus Ambassador - Retechnox Technologies LLP</p>
+                <p>Promoting tech initiatives and connecting students with learning opportunities.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .587l3.668 7.431L23.6 9.75l-5.8 5.648L19.335 24 12 19.897 4.665 24l1.536-8.602L.4 9.75l7.932-1.732L12 .587z"/></svg>
+              </span>
+              <div>
+                <h3>Content Writer</h3>
+                <p class="timeline-role">Technical Content Writer - NBA nexGrid</p>
+                <p>Writing technical documentation and accreditation-focused content.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="content-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Formal learning path.</h2>
+          </div>
+          <div class="education-list">
+            <article class="education-item reveal">
+              <span>2025&ndash;2029</span>
+              <div class="education-card">
+                <img class="edu-photo" src="assets/mits.jpg" alt="Muthoot Institute of Technology and Science" />
+                <div class="education-details">
+                  <h3>B.Tech CSE (AI)</h3>
+                  <p><strong>Muthoot Institute of Technology and Science</strong>, Kochi - Second Year</p>
+                </div>
+              </div>
+            </article>
+            <article class="education-item reveal">
+              <span>2025</span>
+              <div class="education-card">
+                <img class="edu-photo" src="assets/stmarys.jpg" alt="St. Mary's CGHSS" />
+                <div class="education-details">
+                  <h3>State Board</h3>
+                  <p><strong>St. Mary's CGHSS</strong>, Ernakulam</p>
+                </div>
+              </div>
+            </article>
+            <article class="education-item reveal">
+              <span>2023</span>
+              <div class="education-card">
+                <img class="edu-photo" src="assets/rajagiri.jpg" alt="Rajagiri Public School" />
+                <div class="education-details">
+                  <h3>CBSE</h3>
+                  <p><strong>Rajagiri Public School</strong>, Kalamassery</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="linkedin" class="content-section linkedin-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">LinkedIn Profile</p>
+            <h2>Actual profile snapshot with the key details pulled out clearly.</h2>
+          </div>
+          <article class="linkedin-actual reveal" aria-label="Actual LinkedIn profile screenshot and extracted details">
+            <div class="linkedin-shot-wrap">
+              <img src="assets/linkedin-profile-screenshot.png" alt="Screenshot of Kareena Treesa Thomas LinkedIn profile" />
+            </div>
+            <aside class="linkedin-details-panel">
+              <p class="eyebrow">From LinkedIn Profile</p>
+              <h3>Kareena Treesa Thomas</h3>
+              <p class="linkedin-pronouns">She/Her</p>
+              <p class="linkedin-headline">
+                AI Engineer in the Making | B.Tech CSE (AI) @ MITS | GSSoC '26 Contributor -
+                Open Source &amp; AI Agents | Campus Ambassador @ Retechnox | Hackathon Enthusiast |
+                Building Real-World AI Solutions
+              </p>
+              <div class="linkedin-facts">
+                <div><strong>Location</strong><span>Kerala, India</span></div>
+                <div><strong>Connections</strong><span data-profile-field="connections">1500+</span></div>
+                <div><strong>Open to Work</strong><span>Recruiters only - Kerala, India / Remote</span></div>
+                <div><strong>Current</strong><span>GirlScript Summer of Code</span></div>
+                <div><strong>Education</strong><span>Muthoot Institute of Technology and Science</span></div>
+                <div><strong>Email</strong><span>kareenatreesa07@gmail.com</span></div>
+                <div><strong>Job Roles</strong><span data-profile-field="jobRoles">Full Stack Web Development Intern, Campus Ambassador, Open Source Contributor, Technical Content Writer</span></div>
+              </div>
+              <div class="linkedin-action-row">
+                <a class="btn btn-primary" href="https://linkedin.com/in/kareena-treesa-thomas" target="_blank" rel="noopener noreferrer">Open LinkedIn</a>
+                <a class="btn btn-ghost" href="mailto:kareenatreesa07@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
+      <section id="contact" class="content-section contact-section">
+        <div class="section-inner contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Have an idea, opportunity, or project?</h2>
+            <p>
+              Send a message and the form will prepare an email to Kareena with your details.
+            </p>
+            <div class="social-row contact-socials">
+              <a class="social-icon" href="https://github.com/Kareena-Treesa-Thomas" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.8-1.34-3.8-1.34-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.43 2.64 2.96 1.88.1-.73.4-1.22.72-1.5-2.5-.28-5.13-1.25-5.13-5.55 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.1-2.98 0 0 .95-.3 3.1 1.15a10.6 10.6 0 0 1 5.64 0c2.15-1.45 3.1-1.15 3.1-1.15.6 1.55.22 2.7.1 2.98.72.79 1.16 1.79 1.16 3.02 0 4.31-2.64 5.26-5.15 5.54.4.35.77 1.04.77 2.1v3.12c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z" />
+                </svg>
+              </a>
+              <a class="social-icon" href="https://linkedin.com/in/kareena-treesa-thomas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4v15.5h-4V8Zm7.5 0h3.84v2.12h.05c.54-1 1.84-2.42 3.8-2.42 4.06 0 4.81 2.67 4.81 6.15v7.65h-4v-6.78c0-1.62-.03-3.7-2.25-3.7-2.25 0-2.6 1.76-2.6 3.58v6.9h-4V8Z" />
+                </svg>
+              </a>
+              <a class="social-icon social-text" href="https://leetcode.com/u/Kareena_Treesa_Thomas" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">LC</a>
+              <a class="social-icon social-text" href="https://www.instagram.com/__.kareena_treesa.__?igsh=MTM1dGdoc3U2YzB4MA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+              <a class="social-icon" href="mailto:kareenatreesa07@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13Zm2.2-.1 7.3 5.48 7.3-5.48a.8.8 0 0 0-.3-.06H5a.8.8 0 0 0-.3.06Zm14.46 13.27L13.4 13.8 12 14.86l-1.4-1.05-5.76 4.86c.05.01.1.02.16.02h14c.06 0 .11-.01.16-.02Zm.68-1.77V7.17l-4.88 3.66 4.88 6.07ZM4.16 7.17v9.73l4.88-6.07-4.88-3.66Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 4 4.5 11.5l1.42 1.42L11 7.83V20h2V7.83l5.08 5.09 1.42-1.42L12 4Z" />
+      </svg>
+    </button>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <h2>Kareena Treesa Thomas</h2>
+        <p>Building intelligent solutions, one commit at a time.</p>
+        <div class="social-row">
+          <a class="social-icon" href="https://github.com/Kareena-Treesa-Thomas" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.8-1.34-3.8-1.34-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.43 2.64 2.96 1.88.1-.73.4-1.22.72-1.5-2.5-.28-5.13-1.25-5.13-5.55 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.1-2.98 0 0 .95-.3 3.1 1.15a10.6 10.6 0 0 1 5.64 0c2.15-1.45 3.1-1.15 3.1-1.15.6 1.55.22 2.7.1 2.98.72.79 1.16 1.79 1.16 3.02 0 4.31-2.64 5.26-5.15 5.54.4.35.77 1.04.77 2.1v3.12c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z" />
+            </svg>
+          </a>
+          <a class="social-icon" href="https://linkedin.com/in/kareena-treesa-thomas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4v15.5h-4V8Zm7.5 0h3.84v2.12h.05c.54-1 1.84-2.42 3.8-2.42 4.06 0 4.81 2.67 4.81 6.15v7.65h-4v-6.78c0-1.62-.03-3.7-2.25-3.7-2.25 0-2.6 1.76-2.6 3.58v6.9h-4V8Z" />
+            </svg>
+          </a>
+          <a class="social-icon social-text" href="https://leetcode.com/u/Kareena_Treesa_Thomas" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">LC</a>
+          <a class="social-icon social-text" href="https://www.instagram.com/__.kareena_treesa.__?igsh=MTM1dGdoc3U2YzB4MA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+          <a class="social-icon" href="mailto:kareenatreesa07@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13Zm2.2-.1 7.3 5.48 7.3-5.48a.8.8 0 0 0-.3-.06H5a.8.8 0 0 0-.3.06Zm14.46 13.27L13.4 13.8 12 14.86l-1.4-1.05-5.76 4.86c.05.01.1.02.16.02h14c.06 0 .11-.01.16-.02Zm.68-1.77V7.17l-4.88 3.66 4.88 6.07ZM4.16 7.17v9.73l4.88-6.07-4.88-3.66Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="github-dynamic.css" />
+    <script src="github-dynamic.js"></script>
+  </body>
+</html>
