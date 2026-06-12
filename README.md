@@ -33,8 +33,8 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/Kareena-Treesa-Thomas/-FUTURE_FS_01.git
-cd -FUTURE_FS_01
+git clone https://github.com/Kareena-Treesa-Thomas/FUTURE_FS_01.git
+cd FUTURE_FS_01
 ```
 
 Open `index.html` in your browser — no build step or server needed.
