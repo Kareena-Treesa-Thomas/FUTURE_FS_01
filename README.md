@@ -1,3 +1,4 @@
+
 # 🌐 Personal Portfolio Website — Future Interns Full Stack Internship
 
 [![HTML](https://img.shields.io/badge/HTML-Structure-e34f26?style=flat-square)](https://github.com/Kareena-Treesa-Thomas/FUTURE_FS_01)
@@ -12,7 +13,7 @@
 
 ## 🎬 Live Demo
 
-🚀 **[View Live Portfolio](https://kareena-treesa-thomas.github.io/-FUTURE_FS_01/)**
+🚀 **[kareena-portfolio.vercel.app](https://kareena-portfolio.vercel.app/)**
 
 ---
 
@@ -31,20 +32,12 @@
 
 ## 🚀 Quick Start
 
-No setup needed — open directly in browser:
-
 ```bash
 git clone https://github.com/Kareena-Treesa-Thomas/-FUTURE_FS_01.git
 cd -FUTURE_FS_01
 ```
 
-Open `index.html` in your browser, or serve locally:
-
-```bash
-python -m http.server 3000
-```
-
-Then open `http://localhost:3000`
+Open `index.html` in your browser — no build step or server needed.
 
 ---
 
@@ -86,6 +79,4 @@ This portfolio was built as **Task 01** of the [Future Interns](https://futurein
 
 ---
 
-## 📄 License
 
-MIT
